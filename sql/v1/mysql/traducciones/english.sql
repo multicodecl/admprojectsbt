@@ -5,62 +5,63 @@
 -- Created by: https://github.com/multicodecl
 --
 -- Updated by: 
--- 21-05-2024 https://github.com/multicodecl
---
+-- 29-05-2024 https://github.com/multicodecl
 --
 
 -- Module configuration update
 UPDATE config_modulos
     SET nombre = 'Mail Settings',
-        descripcion = 'This table will define the default email configuration to notify project and task assignees.',
-        modulo_activo = 0, referencia_previa = NULL, activo = 1
+        descripcion = 'This table will define the default email configuration to notify project and task assignees.'
 WHERE id = 1;
 
 UPDATE config_modulos
     SET nombre = 'Platform Configuration',
-        descripcion = 'This table will define the general configuration of the platform in its current version',
-        modulo_activo = 0, referencia_previa = NULL, activo = 1
+        descripcion = 'This table will define the general configuration of the platform in its current version'
 WHERE id = 2;
 
 UPDATE config_modulos
     SET nombre = 'Users',
-        descripcion = 'This table will define the data of the system users',
-        modulo_activo = 0, referencia_previa = NULL, activo = 1
+        descripcion = 'This table will define the data of the system users'
 WHERE id = 3;
 
 UPDATE config_modulos
     SET nombre = 'Projects',
-        descripcion = 'This table will define the projects to be developed in the organization',
-        modulo_activo = 0, referencia_previa = NULL, activo = 1
+        descripcion = 'This table will define the projects to be developed in the organization'
 WHERE id = 4;
 
 UPDATE config_modulos
     SET nombre = 'Tasks',
-        descripcion = 'This table will define the tasks of the current projects',
-        modulo_activo = 0, referencia_previa = NULL, activo = 1
+        descripcion = 'This table will define the tasks of the current projects'
 WHERE id = 5;
 
 UPDATE config_modulos
     SET nombre = 'Project Comments',
-        descripcion = 'This table will define the comments of the current projects',
-        modulo_activo = 0, referencia_previa = '4', activo = 1
+        descripcion = 'This table will define the comments of the current projects'
 WHERE id = 6;
 
 UPDATE config_modulos
     SET nombre = 'Task Comments',
-        descripcion = 'This table will define the comments of the current tasks',
-        modulo_activo = 0, referencia_previa = '5', activo = 1
+        descripcion = 'This table will define the comments of the current tasks'
 WHERE id = 7;
 
 UPDATE config_modulos
     SET nombre = 'Clients',
-        descripcion = 'This table will define the current clients',
-        modulo_activo = 0, referencia_previa = '3', activo = 1
+        descripcion = 'This table will define the current clients'
 WHERE id = 8;
 
 UPDATE config_modulos
     SET nombre = 'Calendar',
-        descripcion = 'This table will define meetings among other things',
-        modulo_activo = 0, referencia_previa = '3', activo = 1
+        descripcion = 'This table will define meetings among other things'
 WHERE id = 9;
 
+-- Update of user types
+UPDATE tipo_usuarios SET descripcion = 'Super Administrator' WHERE id = 1;
+UPDATE tipo_usuarios SET descripcion = 'General Administrator' WHERE id = 2;
+UPDATE tipo_usuarios SET descripcion = 'Developer' WHERE id = 3;
+UPDATE tipo_usuarios SET descripcion = 'Testing QA' WHERE id = 4;
+UPDATE tipo_usuarios SET descripcion = 'Client' WHERE id = 5;
+UPDATE tipo_usuarios SET descripcion = 'Functional Analyst' WHERE id = 6;
+UPDATE tipo_usuarios SET descripcion = 'UX/UI Designer' WHERE id = 7;
+UPDATE tipo_usuarios SET descripcion = 'Software Architect' WHERE id = 8;
+UPDATE tipo_usuarios SET descripcion = 'Quality Engineer' WHERE id = 9;
+UPDATE tipo_usuarios SET descripcion = 'DevOps Engineer' WHERE id = 10;

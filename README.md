@@ -12,9 +12,10 @@ Administrador de proyectos y tareas
 
 ### Archivos: SQL
 
-#### tablas 21/05/2024
+#### tablas 29/05/2024
 
 * config_modulos.sql
+* tipo_usuarios.sql
 
 #### phpmyadmin dd/mm/yyyy
 
