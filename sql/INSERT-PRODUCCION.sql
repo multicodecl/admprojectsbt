@@ -50,3 +50,10 @@ INSERT INTO tipo_estado_tarea (id, descripcion, activo) VALUES
 (4, 'Pruebas', 1),
 (5, 'Cerrado', 1),
 (6, 'Cancelado', 1);
+
+-- Insert de tipo_prioridad_proyecto
+INSERT INTO tipo_prioridad_proyecto (id, descripcion, activo) VALUES
+(1, 'Bajo', 1),
+(2, 'Medio', 1),
+(3, 'Alto', 1),
+(4, 'Urgente', 1);

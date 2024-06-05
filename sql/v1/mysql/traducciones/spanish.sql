@@ -81,3 +81,9 @@ UPDATE tipo_estado_tarea SET descripcion = 'Desarrollo' WHERE id = 3;
 UPDATE tipo_estado_tarea SET descripcion = 'Pruebas' WHERE id = 4;
 UPDATE tipo_estado_tarea SET descripcion = 'Cerrado' WHERE id = 5;
 UPDATE tipo_estado_tarea SET descripcion = 'Cancelado' WHERE id = 6;
+
+-- Actualización de los tipos de prioridad de proyecto
+UPDATE tipo_prioridad_proyecto SET descripcion = 'Bajo' WHERE id = 1;
+UPDATE tipo_prioridad_proyecto SET descripcion = 'Medio' WHERE id = 2;
+UPDATE tipo_prioridad_proyecto SET descripcion = 'Alto' WHERE id = 3;
+UPDATE tipo_prioridad_proyecto SET descripcion = 'Urgente' WHERE id = 4;
