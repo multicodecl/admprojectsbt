@@ -87,3 +87,9 @@ UPDATE tipo_prioridad_proyecto SET descripcion = 'Bajo' WHERE id = 1;
 UPDATE tipo_prioridad_proyecto SET descripcion = 'Medio' WHERE id = 2;
 UPDATE tipo_prioridad_proyecto SET descripcion = 'Alto' WHERE id = 3;
 UPDATE tipo_prioridad_proyecto SET descripcion = 'Urgente' WHERE id = 4;
+
+-- Actualización de los tipos de prioridad de tareas
+UPDATE tipo_prioridad_tarea SET descripcion = 'Bajo' WHERE id = 1;
+UPDATE tipo_prioridad_tarea SET descripcion = 'Medio' WHERE id = 2;
+UPDATE tipo_prioridad_tarea SET descripcion = 'Alto' WHERE id = 3;
+UPDATE tipo_prioridad_tarea SET descripcion = 'Urgente' WHERE id = 4;

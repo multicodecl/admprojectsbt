@@ -57,3 +57,10 @@ INSERT INTO tipo_prioridad_proyecto (id, descripcion, activo) VALUES
 (2, 'Medio', 1),
 (3, 'Alto', 1),
 (4, 'Urgente', 1);
+
+-- Insert de tipo_prioridad_tarea
+INSERT INTO tipo_prioridad_tarea (id, descripcion, activo) VALUES
+(1, 'Bajo', 1),
+(2, 'Medio', 1),
+(3, 'Alto', 1),
+(4, 'Urgente', 1);
