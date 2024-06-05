@@ -17,6 +17,7 @@ Administrador de proyectos y tareas
 * config_modulos.sql
 * tipo_usuarios.sql
 * tipo_estado_proyecto.sql
+* tipo_estado_tarea.sql
 * 
 
 #### phpmyadmin dd/mm/yyyy

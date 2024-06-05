@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 03-06-2024 https://github.com/multicodecl
+-- 05-06-2024 https://github.com/multicodecl
 --
 
 -- Actualización de la configuración de modulos
@@ -73,3 +73,11 @@ UPDATE tipo_estado_proyecto SET descripcion = 'Desarrollo' WHERE id = 3;
 UPDATE tipo_estado_proyecto SET descripcion = 'Pruebas' WHERE id = 4;
 UPDATE tipo_estado_proyecto SET descripcion = 'Cerrado' WHERE id = 5;
 UPDATE tipo_estado_proyecto SET descripcion = 'Cancelado' WHERE id = 6;
+
+-- Actualización de los tipos de estado de tareas
+UPDATE tipo_estado_tarea SET descripcion = 'Nuevo' WHERE id = 1;
+UPDATE tipo_estado_tarea SET descripcion = 'Abierto' WHERE id = 2;
+UPDATE tipo_estado_tarea SET descripcion = 'Desarrollo' WHERE id = 3;
+UPDATE tipo_estado_tarea SET descripcion = 'Pruebas' WHERE id = 4;
+UPDATE tipo_estado_tarea SET descripcion = 'Cerrado' WHERE id = 5;
+UPDATE tipo_estado_tarea SET descripcion = 'Cancelado' WHERE id = 6;
