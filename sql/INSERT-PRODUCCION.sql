@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 29-05-2024 https://github.com/multicodecl
+-- 03-06-2024 https://github.com/multicodecl
 --
 
 -- Insert de config_modulos
@@ -32,3 +32,12 @@ INSERT INTO tipo_usuarios (id, descripcion, es_predeterminado, ldap_defecto, num
 (8, 'Arquitecto de Software', 1, 0, 8, 1),
 (9, 'Ingeniero de Calidad', 1, 0, 9, 1),
 (10, 'Ingeniero de DevOps', 1, 0, 10, 1);
+
+-- Insert de tipo_estado_proyecto
+INSERT INTO tipo_estado_proyecto (id, descripcion, activo) VALUES
+(1, 'Nuevo', 1),
+(2, 'Abierto', 1),
+(3, 'Desarrollo', 1),
+(4, 'Pruebas', 1),
+(5, 'Cerrado', 1),
+(6, 'Cancelado', 1);

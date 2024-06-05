@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 29-05-2024 https://github.com/multicodecl
+-- 03-06-2024 https://github.com/multicodecl
 --
 
 -- Actualización de la configuración de modulos
@@ -65,3 +65,11 @@ UPDATE tipo_usuarios SET descripcion = 'Diseñador UX/UI' WHERE id = 7;
 UPDATE tipo_usuarios SET descripcion = 'Arquitecto de Software' WHERE id = 8;
 UPDATE tipo_usuarios SET descripcion = 'Ingeniero de Calidad' WHERE id = 9;
 UPDATE tipo_usuarios SET descripcion = 'Ingeniero de DevOps' WHERE id = 10;
+
+-- Actualización de los tipos de estado de proyectos
+UPDATE tipo_estado_proyecto SET descripcion = 'Nuevo' WHERE id = 1;
+UPDATE tipo_estado_proyecto SET descripcion = 'Abierto' WHERE id = 2;
+UPDATE tipo_estado_proyecto SET descripcion = 'Desarrollo' WHERE id = 3;
+UPDATE tipo_estado_proyecto SET descripcion = 'Pruebas' WHERE id = 4;
+UPDATE tipo_estado_proyecto SET descripcion = 'Cerrado' WHERE id = 5;
+UPDATE tipo_estado_proyecto SET descripcion = 'Cancelado' WHERE id = 6;
