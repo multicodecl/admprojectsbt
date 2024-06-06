@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 05-06-2024 https://github.com/multicodecl
+-- 06-06-2024 https://github.com/multicodecl
 --
 
 -- Insert de config_modulos
@@ -64,3 +64,13 @@ INSERT INTO tipo_prioridad_tarea (id, descripcion, activo) VALUES
 (2, 'Medio', 1),
 (3, 'Alto', 1),
 (4, 'Urgente', 1);
+
+-- Insert de tipo_tarea
+INSERT INTO tipo_tarea (id, descripcion, activo) VALUES
+(1, 'Bug', 1),
+(2, 'Cambio', 1),
+(3, 'Desarrollo', 1),
+(4, 'Idea', 1),
+(5, 'Revisión', 1),
+(6, 'Pruebas', 1),
+(7, 'Optimización', 1);

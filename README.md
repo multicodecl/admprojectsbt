@@ -7,12 +7,14 @@ Administrador de proyectos y tareas
 ## Carpetas
 
 > Backups: sql/v1/mysql/phpmyadmin
+
 > MySQL: sql/v1/mysql/tablas
+
 > Languages: sql/v1/mysql/traducciones
 
 ### Archivos: SQL
 
-#### tablas 05/06/2024
+#### tablas 06/06/2024
 
 * config_modulos.sql
 * tipo_usuarios.sql
@@ -20,12 +22,13 @@ Administrador de proyectos y tareas
 * tipo_estado_tarea.sql
 * tipo_prioridad_proyecto.sql
 * tipo_prioridad_tarea.sql
+* tipo_tarea.sql
 
 #### phpmyadmin dd/mm/yyyy
 
 * 
 
-#### traducciones 05/06/2024
+#### traducciones 06/06/2024
 
 * english.sql
 * spanish.sql
@@ -38,7 +41,9 @@ _ _
 ## Accesos para test
 
 > Base de datos: mc_admprojectsbt / uft8_general_ci
+
 > Usuario: user_adm_project
+
 > Contraseña: u8169pryPLNrQA2r2Z
 
 ## Colaboración
@@ -50,6 +55,7 @@ _ _
 ## Autores
 
 * **Luis Córdova Cifuentes** - *Trabajo Inicial, Desarrollador* - [multicodecl](https://github.com/multicodecl)
+* **Felipe Rojas Moyano** - *Desarrollador* - [Hur0nZ](https://github.com/Hur0nZ)
 
 _También puedes mirar la lista de todos los [contribuyentes](https://github.com/multicodecl/admprojectsbt/contributors) quíenes han participado en este proyecto._
 

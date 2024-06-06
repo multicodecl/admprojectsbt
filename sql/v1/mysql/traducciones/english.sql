@@ -5,7 +5,7 @@
 -- Created by: https://github.com/multicodecl
 --
 -- Updated by: 
--- 05-06-2024 https://github.com/multicodecl
+-- 06-06-2024 https://github.com/multicodecl
 --
 
 -- Module configuration update
@@ -93,3 +93,12 @@ UPDATE tipo_prioridad_tarea SET descripcion = 'Low' WHERE id = 1;
 UPDATE tipo_prioridad_tarea SET descripcion = 'Medium' WHERE id = 2;
 UPDATE tipo_prioridad_tarea SET descripcion = 'High' WHERE id = 3;
 UPDATE tipo_prioridad_tarea SET descripcion = 'Urgent' WHERE id = 4;
+
+-- Task types update
+UPDATE tipo_tarea SET descripcion = 'Bug' WHERE id = 1;
+UPDATE tipo_tarea SET descripcion = 'Change' WHERE id = 2;
+UPDATE tipo_tarea SET descripcion = 'Development' WHERE id = 3;
+UPDATE tipo_tarea SET descripcion = 'Idea' WHERE id = 4;
+UPDATE tipo_tarea SET descripcion = 'Review' WHERE id = 5;
+UPDATE tipo_tarea SET descripcion = 'Testing' WHERE id = 6;
+UPDATE tipo_tarea SET descripcion = 'Optimization' WHERE id = 7;
