@@ -74,3 +74,10 @@ INSERT INTO tipo_tarea (id, descripcion, activo) VALUES
 (5, 'Revisión', 1),
 (6, 'Pruebas', 1),
 (7, 'Optimización', 1);
+
+-- Insert de tipo_tags
+INSERT INTO tipo_tags (id, descripcion, activo) VALUES
+(1, 'Web', 1),
+(2, 'Android', 1),
+(3, 'Desktop', 1),
+(4, 'SQL', 1);

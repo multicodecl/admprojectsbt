@@ -23,6 +23,7 @@ Administrador de proyectos y tareas
 * tipo_prioridad_proyecto.sql
 * tipo_prioridad_tarea.sql
 * tipo_tarea.sql
+* tipo_tags.sql
 
 #### phpmyadmin dd/mm/yyyy
 
@@ -54,8 +55,8 @@ _ _
 
 ## Autores
 
-* **Luis Córdova Cifuentes** - *Trabajo Inicial, Desarrollador* - [multicodecl](https://github.com/multicodecl)
-* **Felipe Rojas Moyano** - *Desarrollador* - [Hur0nZ](https://github.com/Hur0nZ)
+* **Luis C. C.** - *Trabajo Inicial, Desarrollador* - [multicodecl](https://github.com/multicodecl)
+* **Felipe R. M.** - *Desarrollador* - [Hur0nZ](https://github.com/Hur0nZ)
 
 _También puedes mirar la lista de todos los [contribuyentes](https://github.com/multicodecl/admprojectsbt/contributors) quíenes han participado en este proyecto._
 
