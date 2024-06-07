@@ -102,3 +102,10 @@ UPDATE tipo_tarea SET descripcion = 'Idea' WHERE id = 4;
 UPDATE tipo_tarea SET descripcion = 'Review' WHERE id = 5;
 UPDATE tipo_tarea SET descripcion = 'Testing' WHERE id = 6;
 UPDATE tipo_tarea SET descripcion = 'Optimization' WHERE id = 7;
+
+-- Update general platform settings
+UPDATE config_plataforma_general 
+    SET idioma_defecto = 'english', zona_horaria = 'America/New_York', formato_fecha = 'm/d/Y',
+        formato_fecha_hora = 'm/d/Y H:i:s', primer_dia_semana = 'Monday',
+        integrado_por = 'Integrated by MultiCode', lang_html = 'en'
+    WHERE id = 1;

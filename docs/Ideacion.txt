@@ -22,7 +22,8 @@ Requerimientos:
 	- REQ007: Mantenedor de prioridad de tareas (Super Administrador, Administrador General)
 	- REQ008: Mantenedor de tipos de tareas (Super Administrador, Administrador General)
 	- REQ009: Mantenedor de tags (Super Administrador, Administrador General) y (Todos[agregar])
+	- REQ010: Editar configuracion de la plataforma general (Super Administrador)
 
-06-06-2024 (Luis C. C., Felipe R. M.)
+06-06-2024 (Luis C. C., Felipe R. M.) (COMPLETADA)
 	Crear tabla de tag (default: Web, Android, Desktop, SQL)
 		Nota: que se pueda agregar a los proyectos y tareas
