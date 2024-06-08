@@ -1,16 +1,24 @@
 Fecha creado: 06-06-2024
 Creado por: https://github.com/multicodecl
 
+------------------------------------------------------------------------------------------------------------
+
 Desarrolladores:
-	Luis C. C. 			- https://github.com/multicodecl
+	Luis C. C.			- https://github.com/multicodecl
 	Felipe R. M.		- https://github.com/Hur0nZ
+
+------------------------------------------------------------------------------------------------------------
 
 Sistema PHP:
 	PHP: >= 8.0
 	LARAVEL: https://laravel.com/docs/11.x/installation
 
+------------------------------------------------------------------------------------------------------------
+
 Documentos:
 	- 
+
+------------------------------------------------------------------------------------------------------------
 
 Requerimientos:
 	- REQ001: Autenticar usuarios y enviarlos al dashboard principal con sus permisos (Todos)
@@ -23,6 +31,9 @@ Requerimientos:
 	- REQ008: Mantenedor de tipos de tareas (Super Administrador, Administrador General)
 	- REQ009: Mantenedor de tags (Super Administrador, Administrador General) y (Todos[agregar])
 	- REQ010: Editar configuracion de la plataforma general (Super Administrador)
+	- REQ011: Mantenedor de usuarios (Super Administrador) y (Administrador General[agregar])
+
+------------------------------------------------------------------------------------------------------------
 
 06-06-2024 (Luis C. C., Felipe R. M.) (COMPLETADA)
 	Crear tabla de tag (default: Web, Android, Desktop, SQL)

@@ -25,6 +25,7 @@ Administrador de proyectos y tareas
 * tipo_tarea.sql
 * tipo_tags.sql
 * config_plataforma_general.sql
+* usuarios.sql
 
 #### phpmyadmin dd/mm/yyyy
 

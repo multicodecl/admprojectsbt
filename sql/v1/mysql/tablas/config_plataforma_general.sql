@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 06-06-2024 https://github.com/multicodecl
+-- 07-06-2024 https://github.com/multicodecl
 --
 -- version_web, Guarda la version actual del proyecto en producción
 -- titulo_plataforma, Guarda el titulo de la plataforma
@@ -25,6 +25,7 @@
 -- actualizaciones, Guarda si desea recibir una alerta de actualización si se encuentra disponible
 -- charset_html, Guarda el charset utilizado en la plataforma por defecto
 -- lang_html, Guarda el lang etiqueta html definido de la plataforma
+-- enviar_notificacion_email, Guarda si se envia informacion de la tarea o proyecto asignado
 --
 -- Defecto: 1, 1.0, ADMProjectsBT, ADMProjectsBT, NULL, NULL, NULL, Copyright ADMProjectsBT. All Right Reserved, spanish, NULL,
 -- 			America/Santiago, 10, m/d/Y, m/d/Y H:i:s, Lunes, Ingegrado por MultiCode, 1, 1
@@ -56,13 +57,8 @@ CREATE TABLE config_plataforma_general (
 	charset_html VARCHAR(255) NOT NULL,
 	
 	lang_html VARCHAR(100) NOT NULL,
+
+	enviar_notificacion_email TINYINT(1) NOT NULL DEFAULT 0,
 	
 	activo TINYINT(1) NOT NULL DEFAULT 1
 );
-
-INSERT INTO config_plataforma_general (id, created_at, updated_at, version_web, titulo_plataforma, abreviatura_plataforma, logo_base64, 
-		url_logo, favicon32, texto_copyright, idioma_defecto, theme_defecto, zona_horaria, filas_paginas, formato_fecha, 
-		formato_fecha_hora, primer_dia_semana, integrado_por, actualizaciones, charset_html, lang_html, activo) VALUES 
-	('1', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), '1.0', 'ADMProjectsBT', 'ADMProjectsBT', NULL, NULL, NULL, 
-	'Copyright ADMProjectsBT. All Right Reserved', 'spanish', '', 'America/Santiago', '10', 'd/m/Y', 'd/m/Y H:i:s', 'Lunes', 
-	'Ingegrado por MultiCode', '1', 'utf-8', 'es', '1');

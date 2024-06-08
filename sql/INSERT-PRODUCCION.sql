@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 06-06-2024 https://github.com/multicodecl
+-- 07-06-2024 https://github.com/multicodecl
 --
 
 -- Insert de config_modulos
@@ -81,3 +81,18 @@ INSERT INTO tipo_tags (id, descripcion, activo) VALUES
 (2, 'Android', 1),
 (3, 'Desktop', 1),
 (4, 'SQL', 1);
+
+-- Insert de config_plataforma_general
+INSERT INTO config_plataforma_general (id, created_at, updated_at, version_web, titulo_plataforma, abreviatura_plataforma, logo_base64, 
+		url_logo, favicon32, texto_copyright, idioma_defecto, theme_defecto, zona_horaria, filas_paginas, formato_fecha, 
+		formato_fecha_hora, primer_dia_semana, integrado_por, actualizaciones, charset_html, lang_html, enviar_notificacion_email, activo) VALUES 
+	('1', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), '1.0', 'ADMProjectsBT', 'ADMProjectsBT', NULL, NULL, NULL, 
+	'Copyright ADMProjectsBT. All Right Reserved', 'spanish', '', 'America/Santiago', '10', 'd/m/Y', 'd/m/Y H:i:s', 'Lunes', 
+	'Ingegrado por MultiCode', '1', 'utf-8', 'es', 0, '1');
+
+-- Insert de usuarios
+-- User: admin, Email: admprojectsbt@multicode.cl, password_hash: 1234
+INSERT INTO usuarios (id, created_at, updated_at, id_username, password_hash, nombres, apellidos, fecha_nacimiento, sexo,
+		imagen_path, imagen_extension, email, idioma_defecto, fk_id_tip_usu, activo) VALUES 
+	('1', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 'admin', '81dc9bdb52d04dc20036dbd8313ed055', 'Super Administrador', NULL,
+	'06-06-2024', 'INDEFINIDO', NULL, NULL, 'admprojectsbt@multicode.cl', 'spanish', '1', '1');

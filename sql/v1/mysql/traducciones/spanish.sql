@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 06-06-2024 https://github.com/multicodecl
+-- 07-06-2024 https://github.com/multicodecl
 --
 
 -- Actualización de la configuración de modulos
@@ -109,3 +109,6 @@ UPDATE config_plataforma_general
         formato_fecha_hora = 'd/m/Y H:i:s', primer_dia_semana = 'Lunes',
         integrado_por = 'Ingegrado por MultiCode', lang_html = 'es'
     WHERE id = 1;
+
+-- Actualiza el idioma de los usuarios
+ALTER TABLE usuarios CHANGE idioma_defecto idioma_defecto VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT 'spanish';
