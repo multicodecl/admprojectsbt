@@ -5,7 +5,7 @@
 -- Creado por: https://github.com/multicodecl
 --
 -- Actualizado por: 
--- 07-06-2024 https://github.com/multicodecl
+-- 11-06-2024 https://github.com/multicodecl
 --
 
 -- Insert de config_modulos
@@ -96,3 +96,8 @@ INSERT INTO usuarios (id, created_at, updated_at, id_username, password_hash, no
 		imagen_path, imagen_extension, email, idioma_defecto, fk_id_tip_usu, activo) VALUES 
 	('1', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 'admin', '81dc9bdb52d04dc20036dbd8313ed055', 'Super Administrador', NULL,
 	'06-06-2024', 'INDEFINIDO', NULL, NULL, 'admprojectsbt@multicode.cl', 'spanish', '1', '1');
+
+-- Insert de config_correo_general
+INSERT INTO config_correo_general (id, correo, password_hash, nombre_servidor_email, numero_puerto_smtp, usa_smtp, 
+	encriptacion_smtp, modo_depuracion, desabilitado_actual, activo) VALUES
+(1, 'tuemail@dominio.ejemplo', '81dc9bdb52d04dc20036dbd8313ed055', 'mail.nombre_servidor.ejemplo', '587',  1, 0, 0, 1, 1);

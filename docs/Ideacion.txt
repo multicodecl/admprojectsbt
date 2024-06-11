@@ -23,7 +23,7 @@ Documentos:
 Requerimientos:
 	- REQ001: Autenticar usuarios y enviarlos al dashboard principal con sus permisos (Todos)
 	- REQ002: Mantenedor de grupo de usuarios (listar, crear, editar, eliminar) (Super Administrador)
-	- REQ003: Activacion de modulos (Super Administrador)
+	- REQ003: Activacion y desactivacion de modulos (Super Administrador)
 	- REQ004: Mantenedor de estado de proyectos (Super Administrador, Administrador General)
 	- REQ005: Mantenedor de estado de tareas (Super Administrador, Administrador General)
 	- REQ006: Mantenedor de prioridad de proyectos (Super Administrador, Administrador General)
@@ -32,6 +32,7 @@ Requerimientos:
 	- REQ009: Mantenedor de tags (Super Administrador, Administrador General) y (Todos[agregar])
 	- REQ010: Editar configuracion de la plataforma general (Super Administrador)
 	- REQ011: Mantenedor de usuarios (Super Administrador) y (Administrador General[agregar])
+	- REQ012: Editar configuracion de correo general (Super Administrador)
 
 ------------------------------------------------------------------------------------------------------------
 

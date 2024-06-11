@@ -14,7 +14,7 @@ Administrador de proyectos y tareas
 
 ### Archivos: SQL
 
-#### tablas 08/06/2024
+#### tablas 11/06/2024
 
 * config_modulos.sql
 * tipo_usuarios.sql
@@ -27,6 +27,11 @@ Administrador de proyectos y tareas
 * config_plataforma_general.sql
 * usuarios.sql
 * usuarios_historial.sql
+* config_correo_general.sql
+* 
+* 
+* 
+* 
 
 #### phpmyadmin dd/mm/yyyy
 
