@@ -29,7 +29,7 @@ Administrador de proyectos y tareas
 * usuarios_historial.sql
 * config_correo_general.sql
 * proyectos.sql
-* 
+* tareas.sql
 * 
 * 
 
