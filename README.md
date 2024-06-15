@@ -14,7 +14,7 @@ Administrador de proyectos y tareas
 
 ### Archivos: SQL
 
-#### tablas 11/06/2024
+#### tablas 15/06/2024
 
 * config_modulos.sql
 * tipo_usuarios.sql
@@ -28,7 +28,7 @@ Administrador de proyectos y tareas
 * usuarios.sql
 * usuarios_historial.sql
 * config_correo_general.sql
-* 
+* proyectos.sql
 * 
 * 
 * 

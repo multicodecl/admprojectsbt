@@ -33,6 +33,7 @@ Requerimientos:
 	- REQ010: Editar configuracion de la plataforma general (Super Administrador)
 	- REQ011: Mantenedor de usuarios (Super Administrador) y (Administrador General[agregar])
 	- REQ012: Editar configuracion de correo general (Super Administrador)
+	- REQ013: Mantenedor de proyectos (Super Administrador) y (Administrador General[agregar. editar])
 
 ------------------------------------------------------------------------------------------------------------
 
