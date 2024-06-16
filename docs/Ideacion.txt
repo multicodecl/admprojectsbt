@@ -35,6 +35,8 @@ Requerimientos:
 	- REQ012: Editar configuracion de correo general (Super Administrador)
 	- REQ013: Mantenedor de proyectos (Super Administrador) y (Administrador General[agregar. editar])
 	- REQ014: Mantenedor de tareas (Super Administrador) y (Todos(-Cliente)[agregar. editar])
+	- REQ015: Mantenedor de comentarios de proyectos (Super Administrador) y (Todos(-Cliente)[agregar])
+	- REQ016: Mantenedor de comentarios de proyectos reply (Super Administrador) y (Todos(-Cliente)[agregar])
 
 ------------------------------------------------------------------------------------------------------------
 
